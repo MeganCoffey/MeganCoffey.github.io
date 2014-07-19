@@ -226,6 +226,10 @@ a:visited { color: #205caa; }
   background-color: #fff;
 }
 
+.data-section.page-content {
+  padding: 0;
+}
+
 
 /* Home styles */
 /* ----------------------------------------------------------*/
