@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Git Dance"
+date:   2014-07-16 19:10:38
+tags: dev
+---
+
+<iframe width="560" height="315" src="//www.youtube.com/embed/lJG4XTTQjCo" frameborder="0" allowfullscreen></iframe>
+[https://www.youtube.com/watch?v=lJG4XTTQjCo]
+
+[https://www.youtube.com/watch?v=lJG4XTTQjCo]: https://www.youtube.com/watch?v=lJG4XTTQjCo
