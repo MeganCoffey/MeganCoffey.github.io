@@ -1,5 +1,7 @@
 ---
-layout: default
+layout: channel
+title: Data
+permalink: /data/
 ---
 
 <div class="data">
