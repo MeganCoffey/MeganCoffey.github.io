@@ -189,6 +189,7 @@ a:visited { color: #205caa; }
   font-size: 15px;
   letter-spacing: -.3px;
   color: #828282;
+  float: left;
 }
 
 /*.github-icon-svg,
