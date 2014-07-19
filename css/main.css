@@ -131,6 +131,7 @@ a:visited { color: #205caa; }
 
 .section.data {
   background-image: url(../images/data.png);
+  background-size: 42px;
   background-color: #ec5a21;
   width: 100%;
   background-size: contain;
