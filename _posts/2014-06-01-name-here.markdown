@@ -2,7 +2,7 @@
 layout: post
 title:  "Name Here"
 date:   2014-07-16 19:10:38
-tag: data
+tags: data
 ---
 
 This is a new article. i want to see how it works.
