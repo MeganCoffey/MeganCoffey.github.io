@@ -66,9 +66,11 @@ a:visited { color: #205caa; }
 }
 
 .site-nav {
-  float: left;
   height: 56px;
-  border: 1px red;
+}
+
+.nav {
+  height: 56px;
 }
 
 .nav.data {
