@@ -123,12 +123,11 @@ a:visited { color: #205caa; }
   background-position: center;
 }
 
-.data h1 {
+/*.data h1 {
   font-size: 72px;
-  background-color: #ec5a21;
   width: 100%;
   top: 0px;
-}
+}*/
 
 .section.data {
   background-image: url(../images/data.png);
@@ -137,6 +136,8 @@ a:visited { color: #205caa; }
   background-size: contain;
   background-repeat: no-repeat;
   background-position: left;
+    font-size: 72px;
+      top: 0px;
 }
 
 .section {
