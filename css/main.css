@@ -79,8 +79,10 @@ a:visited { color: #205caa; }
 }
 
 .nav.data {
+  background-image: url(../images/data.png);
   background-color: #ec5a21;
   width: 20%;
+  background-size: contain;
 }
 
 .nav.design {
