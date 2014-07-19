@@ -66,17 +66,37 @@ a:visited { color: #205caa; }
 }
 
 .site-nav {
-  float: right;
+  float: left;
   line-height: 56px;
 }
 
-.site-nav .menu-icon { display: none; }
+.nav.data {
+  background-color: #ec5a21;
+}
 
-.site-nav .page-link {
+.nav.design {
+  background-color: #129b89;
+}
+
+.nav.dev {
+  background-color: #77ba13;
+}
+
+.nav.strategy {
+  background-color: #edc116;
+}
+
+.nav.random {
+  background-color: #c83050;
+}
+
+/*.site-nav .menu-icon { display: none; }*/
+
+/*.site-nav .page-link {
   margin-left: 20px;
   color: #727272;
   letter-spacing: -.5px;
-}
+}*/
 
 /* Site footer */
 
