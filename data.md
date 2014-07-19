@@ -6,7 +6,7 @@ permalink: /data/
 
 <div class="data">
 
-  <h1>data</h1>
+<!--   <h1>data</h1> -->
 
   <ul class="posts">
     {% for post in site.posts %}
