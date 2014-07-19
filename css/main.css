@@ -136,8 +136,9 @@ a:visited { color: #205caa; }
   background-size: contain;
   background-repeat: no-repeat;
   background-position: left;
-    font-size: 72px;
-      top: 0px;
+  font-size: 50px;
+  top: 0px;
+  padding-left: 100px;
 }
 
 .section {
