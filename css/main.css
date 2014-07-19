@@ -124,19 +124,27 @@ a:visited { color: #205caa; }
 }
 
 .data h1 {
-  font-size: 42px;
+  font-size: 72px;
   background-color: #ec5a21;
   width: 100%;
   top: 0px;
 }
 
-.data-section {
+.section.data {
   background-image: url(../images/data.png);
   background-color: #ec5a21;
   width: 100%;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: left;
+}
+
+.section {
+  padding: 0;
+  float: left;
+  height: 150px;
+  width: 100%;
+  margin: 0;
 }
 
 /*.site-nav .menu-icon { display: none; }*/
@@ -225,14 +233,6 @@ a:visited { color: #205caa; }
   padding: 30px 10%;
   background-color: #fff;
 }*/
-
-.data-section {
-  padding: 0;
-  float: left;
-  height: 150px;
-  width: 100%;
-  margin: 0;
-}
 
 
 /* Home styles */
