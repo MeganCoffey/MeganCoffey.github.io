@@ -117,6 +117,7 @@ a:visited { color: #205caa; }
 .site-footer {
   border-top: 1px solid #e8e8e8;
   padding: 30px 0;
+  background-color: #1d1d1d;
 }
 
 .footer-heading {
