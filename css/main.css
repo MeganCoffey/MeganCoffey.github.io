@@ -32,10 +32,11 @@ a:visited { color: #205caa; }
 .wrap {
   margin: 0 auto;
   zoom: 1;
+    padding: 0px;
 }
-.site-nav.wrap {
+/*.site-nav.wrap {
   padding: 0px;
-}
+}*/
 
 
 /* Layout Styles */
@@ -390,7 +391,7 @@ a:visited { color: #205caa; }
 
 @media screen and (max-width: 600px) {
 
-  .wrap { padding: 0 0px; }
+/*  .wrap { padding: 0 0px; }*/
 
   .site-nav {
     position: fixed;
