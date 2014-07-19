@@ -88,23 +88,39 @@ a:visited { color: #205caa; }
 }
 
 .nav.design {
+  background-image: url(../images/design.png);  
   background-color: #129b89;
   width: 20%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .nav.dev {
+  background-image: url(../images/dev.png);  
   background-color: #77ba13;
   width: 20%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .nav.strategy {
+  background-image: url(../images/strategy.png);  
   background-color: #edc116;
   width: 20%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .nav.random {
+  background-image: url(../images/random.png);  
   background-color: #c83050;
   width: 20%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 /*.site-nav .menu-icon { display: none; }*/
