@@ -9,6 +9,7 @@ permalink: /data/
 <!--   <h1>data</h1> -->
 
   <ul class="posts">
+    {% for post in site.posts %}
     {% for post in site.tags.DATA %}
 
       <li>
