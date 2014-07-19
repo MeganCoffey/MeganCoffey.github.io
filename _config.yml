@@ -1,5 +1,5 @@
 # Site settings
-title: url="/images/logo.jpg"
+title: slackoverflow
 email: megancoffey0427@gmail.com
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 baseurl: ""
