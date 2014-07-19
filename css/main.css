@@ -71,26 +71,32 @@ a:visited { color: #205caa; }
 
 .nav {
   height: 56px;
+  float: left;
 }
 
 .nav.data {
   background-color: #ec5a21;
+  width: 20%;
 }
 
 .nav.design {
   background-color: #129b89;
+  width: 20%;
 }
 
 .nav.dev {
   background-color: #77ba13;
+  width: 20%;
 }
 
 .nav.strategy {
   background-color: #edc116;
+  width: 20%;
 }
 
 .nav.random {
   background-color: #c83050;
+  width: 20%;
 }
 
 /*.site-nav .menu-icon { display: none; }*/
