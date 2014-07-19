@@ -1,5 +1,5 @@
 ---
-layout: channel
+layout: default
 ---
 
 <div class="data">
