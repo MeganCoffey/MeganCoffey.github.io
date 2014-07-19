@@ -137,7 +137,11 @@ a:visited { color: #205caa; }
   border-top: 1px solid #e8e8e8;
   padding: 30px 0;
   background-color: #1d1d1d;
+}
+
+.footer-col-1.column {
   background-image: url(../images/sbxlogo.png);
+  background-repeat: no-repeat;
 }
 
 .footer-heading {
