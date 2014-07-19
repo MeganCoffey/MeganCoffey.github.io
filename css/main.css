@@ -148,7 +148,11 @@ a:visited { color: #205caa; }
 
 .site-footer .column { float: left; margin-bottom: 15px; }
 
-.footer-col-1 {
+.footer-col-1.column {
+  background-image: url(../images/sbxlogo.png); 
+}
+
+.footer-col-1{
   width: 270px; /*fallback*/
   background-image: url(../images/sbxlogo.png); 
   width: -webkit-calc(35% - 10px);
