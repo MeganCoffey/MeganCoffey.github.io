@@ -129,9 +129,7 @@ a:visited { color: #205caa; }
   top: 0px;
 }*/
 
-.section.data {
-  background-image: url(../images/data.png);
-  background-color: #ec5a21;
+.section {
   width: 100%;
   background-size: contain;
   background-repeat: no-repeat;
@@ -142,6 +140,31 @@ a:visited { color: #205caa; }
   padding-top: 50px;
   height: 150px;
   margin: 0;
+}
+
+.section.data {
+  background-image: url(../images/data.png);
+  background-color: #ec5a21;
+}
+
+.section.design {
+  background-image: url(../images/design.png);
+  background-color: #129b89;
+}
+
+.section.dev {
+  background-image: url(../images/dev.png);
+  background-color: #77ba13;
+}
+
+.section.stragey {
+  background-image: url(../images/strategy.png);
+  background-color: #edc116;
+}
+
+.section.random {
+  background-image: url(../images/random.png);
+  background-color: #c83050;
 }
 
 /*.section {
