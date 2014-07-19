@@ -84,6 +84,7 @@ a:visited { color: #205caa; }
   width: 20%;
   background-size: contain;
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 .nav.design {
