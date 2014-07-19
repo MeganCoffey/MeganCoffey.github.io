@@ -73,7 +73,7 @@ a:visited { color: #205caa; }
 }
 
 .nav {
-  height: 65px;
+  height: 70px;
   float: left;
 }
 
@@ -390,7 +390,7 @@ a:visited { color: #205caa; }
 
 @media screen and (max-width: 600px) {
 
-  .wrap { padding: 0 12px; }
+  .wrap { padding: 0 0px; }
 
   .site-nav {
     position: fixed;
