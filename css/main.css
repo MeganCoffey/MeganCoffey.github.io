@@ -228,6 +228,9 @@ a:visited { color: #205caa; }
 
 .data-section.page-content {
   padding: 0;
+  float: left;
+  height: 150px;
+  width: 100%;
 }
 
 
