@@ -130,6 +130,15 @@ a:visited { color: #205caa; }
   top: 0px;
 }
 
+.data-section {
+  background-image: url(../images/data.png);
+  background-color: #ec5a21;
+  width: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
 /*.site-nav .menu-icon { display: none; }*/
 
 /*.site-nav .page-link {
