@@ -142,10 +142,10 @@ a:visited { color: #205caa; }
   margin: 0;
 }
 
-.section.data {
+/*.section.data {
   background-image: url(../images/data.png);
   background-color: #ec5a21;
-}
+}*/
 
 .section.design {
   background-image: url(../images/design.png);
