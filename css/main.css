@@ -267,7 +267,10 @@ a:visited { color: gray; }
 
 .home h1 { margin-bottom: 25px; }
 
-.posts { list-style-type: none; }
+.posts { 
+  list-style-type: none; 
+  margin-top: 20px;
+}
 
 .posts li { margin-bottom: 30px; }
 
