@@ -7,7 +7,7 @@ permalink: /data/
 <div class="data">
 
   <ul class="posts">
-    {% for post in site.categories[data] %}
+    {% for post in site.categories.DATA %}
 
       <li>
         <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
