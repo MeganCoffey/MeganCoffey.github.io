@@ -7,7 +7,6 @@ permalink: /data/
 <div class="data">
 
   <ul class="posts">
-      <h1>data</h1>
     {% for post in site.posts %}
 
       <li>
