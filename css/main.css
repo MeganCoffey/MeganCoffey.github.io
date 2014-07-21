@@ -52,9 +52,9 @@ a:visited { color: gray; }
   top: 0;
 }
 
-.site-nav {
+/*.site-nav {
   position: fixed;
-}
+}*/
 
 .site-title,
 .site-title:hover,
