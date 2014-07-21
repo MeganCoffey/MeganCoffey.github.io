@@ -187,12 +187,12 @@ a:visited { color: gray; }
 
 /* Site footer */
 
-.site-footer {
+/*.site-footer {
   padding: 30px 0;
-}
+}*/
 
 .footer {
-/*  background-image: url(../images/sbxlogo.png);*/
+  background-image: url(../images/sbxlogo.png);
   background-repeat: no-repeat;
   background-size: contain;
   float: left; 
