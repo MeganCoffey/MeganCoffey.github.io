@@ -185,15 +185,15 @@ a:visited { color: gray; }
 /* Site footer */
 
 .site-footer {
-/*  border-top: 1px solid #e8e8e8;*/
   padding: 30px 0;
-  background-color: #1d1d1d;
 }
 
-.footer-col-1.column {
+.footer {
   background-image: url(../images/sbxlogo.png);
   background-repeat: no-repeat;
   background-size: contain;
+  float: left; 
+  margin-bottom: 15px;
 }
 
 /*.footer-heading {
@@ -203,7 +203,11 @@ a:visited { color: gray; }
   margin-bottom: 15px;
 }*/
 
-.site-footer .column { float: left; margin-bottom: 15px; }
+/*.site-footer .column { float: left; margin-bottom: 15px; }*/
+
+/*.footer-col-1.column {
+  background-image: url(../images/sbxlogo.png); 
+}*/
 
 
 
