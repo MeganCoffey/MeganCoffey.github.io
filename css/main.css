@@ -192,9 +192,10 @@ a:visited { color: gray; }
 }*/
 
 .site-footer {
+  width: 100%;
   float: left; 
   margin-bottom: 15px;
-  background-color: black;
+  background-color: #1c1c1c;
 }
 
 /*.footer-heading {
