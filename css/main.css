@@ -479,10 +479,10 @@ a:visited { color: gray; }
   .post-content ul,
   .post-content ol { padding-left: 10px; }
 
-  .site-footer .column {
+/*  .site-footer .column {
     float: none;
     clear: both;
     width: auto;
     margin: 0 0 15px; }
 
-}
+}*/
