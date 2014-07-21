@@ -2,7 +2,7 @@
 layout: post
 title:  "Worlds Best Cup of Coffee"
 date:   2014-06-16 19:10:38
-category: "random"
+category: random
 tags: 
 ---
 

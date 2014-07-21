@@ -7,7 +7,7 @@ permalink: /random/
 <div class="random">
 
   <ul class="posts">
-    {% for post in site.categories[random] %}
+    {% for post in site.categories[RANDOM] %}
 
       <li>
         <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
