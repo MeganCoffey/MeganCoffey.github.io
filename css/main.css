@@ -52,10 +52,10 @@ a:visited { color: gray; }
   top: 0;
 }
 
-.site-header,
+/*.site-header,
 .site-nav {
   position: fixed;
-}
+}*/
 
 .site-title,
 .site-title:hover,
