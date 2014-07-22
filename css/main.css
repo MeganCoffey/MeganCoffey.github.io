@@ -30,9 +30,11 @@ a:visited { color: blue; }
 .wrap:after { clear: both; }
 .wrap {
   margin: 0 auto;
-  zoom: 1;
+/*  zoom: 1;*/
     padding: 0px;
 }
+
+
 /*.site-nav.wrap {
   padding: 0px;
 }*/
@@ -140,26 +142,31 @@ a:visited { color: blue; }
 
 .section.data {
   background-image: url(../images/data.png);
+  background-size: 90px; 
   background-color: #ec5a21;
 }
 
 .section.design {
   background-image: url(../images/design.png);
+  background-size: 90px;
   background-color: #129b89;
 }
 
 .section.dev {
   background-image: url(../images/dev.png);
+  background-size: 90px;
   background-color: #77ba13;
 }
 
 .section.strategy {
   background-image: url(../images/strategy.png);
+  background-size: 90px;
   background-color: #edc116;
 }
 
 .section.random {
   background-image: url(../images/random.png);
+  background-size: 90px;
   background-color: #c83050;
 }
 
@@ -472,16 +479,14 @@ a:visited { color: blue; }
     position: fixed;
   }*/
 
-  .site-nav {
-/*    position: fixed;*/
+/*  .site-nav {
     z-index: 10;
     top: 14px; right: 8px;
     background-color: white;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
-    border: 1px solid #e8e8e8;
-  }
+  }*/
 
 /*  .site-nav .menu-icon {
     display: block;
