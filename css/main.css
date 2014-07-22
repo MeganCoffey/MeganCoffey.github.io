@@ -21,7 +21,7 @@ h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: 400; }
 
 a         { color: black; text-decoration: none; }
 a:hover   { color: #000; text-decoration: underline; }
-a:visited { color: gray; }
+a:visited { color: blue; }
 
 /* Utility */
 
@@ -125,12 +125,6 @@ a:visited { color: gray; }
   background-position: center;
 }
 
-/*.data h1 {
-  font-size: 72px;
-  width: 100%;
-  top: 0px;
-}*/
-
 .section {
   width: 100%;
   background-size: contain;
@@ -193,8 +187,9 @@ a:visited { color: gray; }
 
 .site-footer {
   width: 100%;
-  margin-bottom: 15px;
   background-color: #1c1c1c;
+  padding-top: 20px;
+  padding-bottom: 10px;
 }
 
 .footer.column1 {
@@ -280,6 +275,41 @@ a:visited { color: gray; }
   font-size: 15px;
   color: #black;
   margin-top: 5px;
+}
+
+.post-header.strategy {
+  background-color: #edc116;
+  margin: 0;
+  height: 60px;
+  padding-top: 15px;
+}
+
+.post-header.data {
+  background-color: #ec5a21;
+  margin: 0;
+  height: 60px;
+  padding-top: 15px;
+}
+
+.post-header.design {
+  background-color: #129b89;
+  margin: 0;
+  height: 60px;
+  padding-top: 15px;
+}
+
+.post-header.random {
+  background-color: #c83050;
+  margin: 0;
+  height: 60px;
+  padding-top: 15px;
+}
+
+.post-header.dev {
+  background-color: #77ba13;
+  margin: 0;
+  height: 60px;
+  padding-top: 15px;
 }
 
 .post-content { margin: 0 0 30px; }
@@ -438,8 +468,12 @@ a:visited { color: gray; }
 
 /*  .wrap { padding: 0 0px; }*/
 
-  .site-nav {
+/*  .site-header {
     position: fixed;
+  }*/
+
+  .site-nav {
+/*    position: fixed;*/
     z-index: 10;
     top: 14px; right: 8px;
     background-color: white;
@@ -459,7 +493,7 @@ a:visited { color: gray; }
     line-height: 36px;
   }*/
 
-  .site-nav .menu-icon svg { width: 18px; height: 16px; }
+ /* .site-nav .menu-icon svg { width: 18px; height: 16px; }
 
   .site-nav .trigger {
     clear: both;
@@ -475,7 +509,7 @@ a:visited { color: gray; }
     line-height: 1.25;
     padding: 5px 10px;
     margin: 0;
-  }
+  }*/
 
   .post-header h1 { font-size: 36px; }
   .post-content h2 { font-size: 28px; }

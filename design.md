@@ -1,12 +1,13 @@
 ---
 layout: page
-title: data
+title: design
 ---
 
-<div class="data">
+
+<div class="design">
 
   <ul class="posts">
-    {% for post in site.categories.data %}
+    {% for post in site.categories.design %}
 
       <li>
         <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>

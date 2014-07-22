@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Random
-permalink: /random/
+title: random
 ---
+
 
 <div class="random">
 
   <ul class="posts">
-    {% for post in site.categories[RANDOM] %}
+    {% for post in site.categories.random %}
 
       <li>
         <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
