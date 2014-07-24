@@ -7,7 +7,9 @@ tags:
 ---
 
 Turns out it's a hoax, but still worth watching.
+<div class="videoWrapper">
 <iframe width="420" height="315" src="//www.youtube.com/embed/k6PxMRUgmbA" frameborder="0" allowfullscreen></iframe>
+</div>
 [The original video]
 [The making of 29 Celebrity Impressions, 1 Original Song]
 

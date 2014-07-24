@@ -17,6 +17,5 @@ title: dev
     {% endfor %}
   </ul>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/about.md" | prepend: site.baseurl }}">via RSS</a></p>
 
 </div>
