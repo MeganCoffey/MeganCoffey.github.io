@@ -7,16 +7,142 @@
 
     {% include header.html %}
 
-    <div class="page-content">
+<!--     <div class="page-content">
       <div class="wrap">
       {{ content }}
       </div>
-    </div>
+    </div> -->
+    <main>
+      <nav>
+        <section style="padding-top: 0px;">
+          <header style="position: absolute; top: 0px;">
+<div class="wrap">
+                <a class="site-title" href="{{ site.baseurl }}/"><img src="/images/logo.jpg" alt="slackoverflow" width="100%"></a>
+              </div>
 
-    {% include footer.html %}
+          </header>
+          <article>
+            <small class="arrow">Scroll</small>
+            <h1>The best of slack</h1>
+          </article>  
+          <!-- <article>
+             <div class="wrap">
+                <a class="site-title" href="{{ site.baseurl }}/"><img src="/images/logo.jpg" alt="slackoverflow" width="360px"></a>
+              </div>
+            <small class="arrow">Scroll</small>
+            <h1>The best of slack</h1>
+          </article> -->
+        </section>
+        <section style="">
+          <header style="top: 0px;"><h4>Data</h4></header>
+          <article>
+<!--             <p>Slinky.js is a jQuery plugin for creating beautiful scrolling navigation lists with stacking headers.</p>
+            <p>Scroll this page to see it in action!</p> -->
+            <div class="design">
+              <ul class="posts">
+                {% for post in site.categories.design %}
 
-    <script src="./Slinky.js_files/jquery.min.js"></script>
-    <script src="./Slinky.js_files/jquery.slinky.min.js"></script>
+                  <li>
+                    <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+                    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                    <p>{{ post.excerpt }}</p>
+                  </li>
+                {% endfor %}
+              </ul>
+            </div>
+          </article>
+        </section>
+        <section style="">
+          <header style="top: 35px;"><h4>Design</h4></header>
+          <article>
+<!--             <ul>
+              <li><strong>Smooth scrolling</strong> by disabling pointer events</li>
+              <li><strong>Lightweight</strong> at around 1KB minified</li>
+              <li><strong>Refreshes</strong> on window resize and DOM mutation</li>
+              <li><strong>Compatible</strong> with the latest version of your favorite browser</li>
+            </ul> -->
+              <ul class="posts">
+                {% for post in site.categories.design %}
+
+                  <li>
+                    <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+                    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                    <p>{{ post.excerpt }}</p>
+                  </li>
+                {% endfor %}
+              </ul>
+          </article>
+        </section>
+        <section style="padding-top: 35px;">
+          <header style="position: absolute; bottom: 105px;"><h4>Dev</h4></header>
+          <article>
+<!--             <p>Get the latest version for:</p>
+            <p><a class="btn" title="Unminified version" href="https://raw.github.com/iclanzan/slinky/master/dist/jquery.slinky.js">Development</a>
+            <a class="btn" title="Minified version" href="https://raw.github.com/iclanzan/slinky/master/dist/jquery.slinky.min.js">Production</a></p> -->
+            <div class="dev">
+              <ul class="posts">
+                {% for post in site.categories.dev %}
+
+                  <li>
+                    <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+                    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                    <p>{{ post.excerpt }}</p>
+                  </li>
+                {% endfor %}
+              </ul>
+            </div>
+          </article>
+        </section>
+        <section style="padding-top: 35px;">
+          <header style="position: absolute; bottom: 70px;"><h4>Strategy</h4></header>
+          <article>
+<!--             <p>Include the downloaded file in a script tag after jQuery and call <code>.slinky()</code> on the jQuery element you want to activate Slinky on.</p>
+            <p>Check out the <a href="https://github.com/iclanzan/slinky#getting-started" title="How to use Slinky">Getting Started</a> section of the README for example code.</p> -->
+            <div class="strategy">
+              <ul class="posts">
+                {% for post in site.categories.strategy %}
+
+                  <li>
+                    <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+                    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                    <p>{{ post.excerpt }}</p>
+                  </li>
+                {% endfor %}
+              </ul>
+            </div>
+          </article>
+        </section>
+        <section style="padding-top: 35px;">
+          <header style="bottom: 35px; position: absolute;"><h4>Random</h4></header>
+          <article>
+<!--             <p>There is always room for improvement in any software and <em>Slinky.js</em> is no different.</p>
+            <p>The code is hosted on <a href="https://github.com/iclanzan/slinky" title="Slinky.js on GitHub">GitHub</a> and pull requests are more than welcome as long as you follow the <a href="https://github.com/iclanzan/slinky/blob/master/CONTRIBUTING.md" title="How to contribute to Slinky.js">guidelines for contributors</a>.</p> -->
+            <div class="random">
+              <ul class="posts">
+                {% for post in site.categories.random %}
+
+                  <li>
+                    <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+                    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                    <p>{{ post.excerpt }}</p>
+                  </li>
+                {% endfor %}
+              </ul>
+            </div>
+          </article>
+        </section>
+        <section style="padding-top: 35px;">
+          <header style="bottom: 0px; position: absolute;"><h4>About</h4></header>
+          <article>
+<!--             <p>This plugin is brought to you by <a title="Sorin’s blog" href="http://iclanzan.com/">Sorin Iclanzan</a>, creator of <a href="http://songpane.com/" title="SongPane set list manager">SongPane</a>, and released under the <a href="https://github.com/iclanzan/slinky/blob/master/LICENSE">MIT license</a>.</p> -->
+            {% include footer.html %}
+          </article>
+        </section>
+      </nav>
+    </main>
+
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/jquery.slinky.min.js"></script>
     <script>
       $('main').slinky();
     </script>

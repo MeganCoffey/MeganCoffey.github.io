@@ -86,7 +86,7 @@ h4 {
 }
 
 section:first-child {
-  margin-top: 6.25%;
+/*  margin-top: 6.25%;*/
 }
 
 section:last-child {
@@ -94,27 +94,38 @@ section:last-child {
 }
 
 section:nth-child(2) header {
-  background: #57A922;
+/*  background: #57A922;*/
+  background-color: #ec5a21;
 }
 
+/*section:nth-child(2) {  
+  background-image: url(../images/data.png);
+  background-size: 90px; 
+}*/
+
 section:nth-child(3) header {
-  background: #F7AB00;
+/*  background: #F7AB00;*/
+  background-color: #129b89;
 }
 
 section:nth-child(4) header {
-  background: #EA6F00;
+  background-color: #77ba13;
+/*  background: #EA6F00;*/
 }
 
 section:nth-child(5) header {
-  background: #D5262C;
+  background-color: #edc116;
+/*  background: #D5262C;*/
 }
 
 section:nth-child(6) header {
-  background: #7E2985;
+  background-color: #c83050;
+/*  background: #7E2985;*/
 }
 
 section:nth-child(7) header {
-  background: #1985D4;
+  background-color: #1c1c1c;
+/*  background: #1985D4;*/
 }
 
 article {
@@ -127,7 +138,7 @@ p, ul {
 
 li {
   margin-bottom: .25em;
-  margin-left: 1em;
+/*  margin-left: 1em;*/
 }
 
 h1 {
